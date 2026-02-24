@@ -238,7 +238,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -343,7 +343,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/erantours-logo.webp" alt="Erantours" class="logo" />
+        <img src="/assets/erantours-logo.webp" alt="Erantours" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a></li><li><a href="/events">ספורט ובידור</a></li></ul></div>
     
@@ -737,7 +737,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0522635650';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -815,7 +815,7 @@
         </div>
         <h3 class="contact-contact-methods-card-title">התקשרו אלינו</h3>
         <p class="contact-contact-methods-card-text">צוות השירות שלנו זמין בכל יום לענות על כל שאלה ולסייע בתכנון החופשה המושלמת שלכם</p>
-        <div class="contact-contact-methods-detail">[business_phone]</div>
+        <div class="contact-contact-methods-detail">0522635650</div>
       </div>
 
       <div class="contact-contact-methods-card">
@@ -826,7 +826,7 @@
         </div>
         <h3 class="contact-contact-methods-card-title">שלחו אימייל</h3>
         <p class="contact-contact-methods-card-text">כתבו לנו בנוחות שלכם ונחזור אליכם תוך 24 שעות עם כל המידע והפרטים שאתם צריכים</p>
-        <div class="contact-contact-methods-detail">[business_email]</div>
+        <div class="contact-contact-methods-detail">onlineerantours@gmail.com</div>
       </div>
 
       <div class="contact-contact-methods-card">
@@ -885,7 +885,7 @@
     </form>
 
     <div class="form-note">
-      <p>זמן תגובה טיפוסי: עד 24 שעות בימי עבודה. ניתן להבהיר פרטים נוספים גם בטלפון במספר <strong>[business_phone]</strong>.</p>
+      <p>זמן תגובה טיפוסי: עד 24 שעות בימי עבודה. ניתן להבהיר פרטים נוספים גם בטלפון במספר <strong>0522635650</strong>.</p>
     </div>
   </div>
 
@@ -958,7 +958,7 @@
         <svg data-no-icon-edit="true" aria-hidden="true" class="contact-map-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"></path>
         </svg>
-        <strong>כתובת:</strong> [business_address]
+        <strong>כתובת:</strong> כתובת החברה, חולון, ישראל
       </p>
       <p class="contact-map-hours">
         <svg data-no-icon-edit="true" aria-hidden="true" class="contact-map-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -975,7 +975,7 @@
   <div class="footer-container">
     <div class="footer-top">
       <div class="footer-column footer-about">
-        <img src="/assets/erantours-logo.webp" alt="Erantours" class="logo" />
+        <img src="/assets/erantours-logo.webp" alt="Erantours" class="logo">
         <p class="footer-description">חוויות נסיעה בלתי נשכחות ברחבי העולם. אנחנו כאן כדי להפוך את החופשה שלכם למושלמת.</p>
       </div>
       
@@ -993,23 +993,23 @@
         <ul class="contact-list">
           <li>
             <i class="fas fa-envelope"></i>
-            <a href="mailto:[business_email]">[business_email]</a>
+            <a href="mailto:onlineerantours@gmail.com">onlineerantours@gmail.com</a>
           </li>
           <li>
             <i class="fas fa-phone"></i>
-            <a href="tel:[business_phone]">[business_phone]</a>
+            <a href="tel:0522635650">0522635650</a>
           </li>
           <li><a href="/"><i class="fas fa-map-marker-alt"></i>
-            <span>[business_address]</span></a></li>
+            <span>כתובת החברה, חולון, ישראל</span></a></li>
         </ul>
       </div>
       
       <div class="footer-column footer-social">
         <h3 class="footer-title">עקבו אחרינו</h3>
         <div class="social-links">
-          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
