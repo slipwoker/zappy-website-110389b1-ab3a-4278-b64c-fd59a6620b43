@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+סוכנות תיירות ונופש מובילה המציעה חבילות נופש משפחתיות מומלצות, טיסות, מלונות וכרטיסים לאירועי ספורט ובידור בינלאומיים. יש חופשה? עכשיו תתקשרו!
+
+### שירותים
+https://example.com/services
+גלו את מגוון השירותים שלנו: השכרת רכב במחירים מעולים, טיולים מאורגנים לכל המשפחה, eSIM וירטואלי לשמירה על הקשר מחו״ל. הכל במקום אחד בשבילכם!
+
+### ספורט ובידור
+https://example.com/events
+אוהדי ספורט ובידור, הגיע הזמן! כרטיסים למשחקי כדורגל מרכזיים וקונצרטים חמים ברחבי העולם. חוויית נסיעה משולבת באירוע חלומותיכם מחכה לכם!
+
+### צור קשר
+https://example.com/contact
+צריכים עזרה בתכנון הנסיעה? הצוות המקצועי שלנו כאן בשבילכם! צרו קשר עכשיו לייעוץ אישי, הצעות מחיר והזמנות. יש חופשה? עכשיו תתקשרו ונסדר הכל!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
